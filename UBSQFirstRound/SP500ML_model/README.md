@@ -1,5 +1,5 @@
-# UBSQHackathon
-UBS Quant Hackathon 2020 - Outperform the S&P 500 Index (First Round)
+# UBSQHackathon (First Round)
+UBS Quant Hackathon 2020 - Outperform the S&P 500 Index
 
 Predict stock price returns via neural network.
 
