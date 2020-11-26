@@ -8,7 +8,7 @@ Data Info:
 - All market data is inside the `output` directory
 - `inclusion.csv` constaints info on which 500 stocks are tradable in the period
 
-##Objective
+## Objective
 
 Description
 Act as if you were a US large cap long portfolio manager and needed to build a systematic long only equity stock picking portfolio that performs in all weathers. Use machine learning to help you achieve optimal stock selection with respect to the real-life constraints. Enhanced index strategies are attractive to investors who would like to capture an excess return over a benchmark. The diversified long only portfolio must be equally weighted, fully invested and must contain 50 stocks at any moment of time.
