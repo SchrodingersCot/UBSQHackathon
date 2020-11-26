@@ -1,5 +1,7 @@
 # UBSQHackathon
-UBS Quant Hackathon 2020
+UBS Quant Hackathon 2020 - Outperform the S&P 500 Index (First Round)
+
+Predict stock price returns via neural network.
 
 Useful info:
 - Use `alphien.utils.get_all_data` to read the output data
