@@ -1,87 +1,20 @@
-# Project Title
+# UBSQHackathon (First Round)
+UBS Quant Hackathon 2020 - Machine Learning for Complex Pricing Models
 
-One Paragraph of project description goes here
+The files are designed to be run from the Alphien platform
 
-## Getting Started
+## Objective
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Description
+Become a financial engineer and solve a real life investment product problem. Use the dataset of factors identified by UBS quant team to train and validate your machine learning model. Your model needs to learn from the data and be able to predict the price of an equity structured product faster than traditional computationally intensive models. Efficiency is key to optimizing sales operations and the ability to generate a quotation faster provides a competitive edge. Solve efficiently the pricing puzzle with machine learning to extract this edge.
 
-### Prerequisites
+Target
+This is a supervised regression problem. Your target is to predict the value of the "val_lvsvcharge" column.
 
-What things you need to install the software and how to install them
+Coding environment
+This competition requires participants to use Python. All data and coding environment are provided by Alphien. From the alphien dashboard, access IDEs, Notebooks and the Quantitative library centre on under the Research menu on the left. Participants cannot download the dataset to work locally. All research work has to be done on the platform directly.
 
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+Selection criteria
+It is a pre-requisite that models have a high explanatory power, i.e. that predictions can be traced. Participants need to keep this in mind if they decide to use neural networks for instance: they have to design a property to trace how a prediction is made. Conversely, this property already exists for tree-based models.
+The models will be ranked based on the following criteria: The Maximum absolute error (50%), Mean Square Error (30%) and the model Explainability (20%).
+Among the models that can be considered, rankings will be established based on a the test set.
