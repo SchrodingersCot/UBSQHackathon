@@ -11,29 +11,32 @@ Investment universe
 The Investment Universe is composed of 22 (properly rolled) FX futures. The universe can be called using the function getTickersFXCarryStrategy.
 
 > getTickersFXCarryStrategy()
-         ticker                            description baseCurrency quoteCurrency
-1     AD Curncy                      Australian Dollar          AUD           USD
-2  AD-CD Curncy    Australian Dollar / Canadian Dollar          AUD           CAD
-3  AD-JY Curncy       Australian Dollar / Japanese Yen          AUD           JPY
-4  AD-NV Curncy Australian Dollar / New Zealand Dollar          AUD           NZD
-5     BP Curncy                          British Pound          GBP           USD
-6  BP-JY Curncy           British Pound / Japanese Yen          GBP           JPY
-7  BP-SF Curncy            British Pound / Swiss Franc          GBP           CHF
-8     BR Curncy                         Brazilian Real          BRL           USD
-9  BR-JY Curncy          Brazilian Real / Japanese Yen          BRL           JPY
-10 BR-PE Curncy          Brazilian Real / Mexican Peso          BRL           MXN
-11    CD Curncy                        Canadian Dollar          CAD           USD
-12 CD-NV Curncy   Canadian Dollar / New Zealand Dollar          CAD           NZD
-13    EC Curncy                            Euro Dollar          EUR           USD
-14 EC-AD Curncy               Euro / Australian Dollar          EUR           AUD
-15 EC-JY Curncy                    Euro / Japanese Yen          EUR           JPY
-16    JY Curncy                           Japanese Yen          JPY           USD
-17    NV Curncy                     New Zealand Dollar          NZD           USD
-18 NV-JY Curncy      New Zealand Dollar / Japanese Yen          NZD           JPY
-19    PE Curncy                           Mexican Peso          MXN           USD
-20    RF Curncy                     Euro / Swiss Franc          EUR           CHF
-21    SE Curncy                          Swedish Krona          SEK           USD
-22    SF Curncy                            Swiss Franc          CHF           USD
+
+|           | ticker                |  description                                   | baseCurrency     | quoteCurrency   |
+|-----------------|-----------------------------------------------------|-------------------------------------|-----|-----|
+| 1               | AD Curncy                                           | Australian Dollar                   | AUD | USD |
+| 2               | AD-CD Curncy                                        | Australian Dollar / Canadian Dollar | AUD | CAD |
+| 3               | AD-JY Curncy                                        | Australian Dollar / Japanese Yen    | AUD | JPY |
+| 4 |               | AD-NV Curncy Australian Dollar / New Zealand Dollar | AUD                                 | NZD |     
+| 5               | BP Curncy                                           | British Pound                       | GBP | USD |
+| 6               | BP-JY Curncy                                        | British Pound / Japanese Yen        | GBP | JPY |
+| 7               | BP-SF Curncy                                        | British Pound / Swiss Franc         | GBP | CHF |
+| 8               | BR Curncy                                           | Brazilian Real                      | BRL | USD |
+| 9               | BR-JY Curncy                                        | Brazilian Real / Japanese Yen       | BRL | JPY |
+| 10 | BR-PE Curncy | Brazilian Real / Mexican Peso                       | BRL                                 | MXN |     
+| 11              | CD Curncy                                           | Canadian Dollar                     | CAD | USD |
+| 12 | CD-NV Curncy | Canadian Dollar / New Zealand Dollar                | CAD                                 | NZD |     
+| 13              | EC Curncy                                           | Euro Dollar                         | EUR | USD |
+| 14 | EC-AD Curncy | Euro / Australian Dollar                            | EUR                                 | AUD |     
+| 15 | EC-JY Curncy | Euro / Japanese Yen                                 | EUR                                 | JPY |     
+| 16              | JY Curncy                                           | Japanese Yen                        | JPY | USD |
+| 17              | NV Curncy                                           | New Zealand Dollar                  | NZD | USD |
+| 18 | NV-JY Curncy | New Zealand Dollar / Japanese Yen                   | NZD                                 | JPY |     
+| 19              | PE Curncy                                           | Mexican Peso                        | MXN | USD |
+| 20              | RF Curncy                                           | Euro / Swiss Franc                  | EUR | CHF |
+| 21              | SE Curncy                                           | Swedish Krona                       | SEK | USD |
+| 22              | SF Curncy                                           | Swiss Franc                         | CHF | USD |
+
 Example:
 To be long Australian dollar and short US Dollar: buy the ticker AD.
 
